@@ -7,7 +7,7 @@ const About = () => {
         <div classNam="page_wrapper">
                 <Banner
                     img={require('../assets/img/hotel-13.jpg')}
-                    title="About Us"/>
+                    title="About Us   "/>
 
 
             <div className="container mt-5 pt-5 mb-5 pb-5">
