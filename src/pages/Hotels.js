@@ -5,9 +5,12 @@ import Banner from '../components/Banner';
 const Hotels = () => {
     return(
         <div classNam="page_wrapper">
-            <Banner
-                img={require('../assets/img/hotel-11.jpg')}
-                title="Hotels" />
+            <div className="cm_banner" style={{backgroundImage: `url(${require('../assets/img/hotels_wall.jpg')})`, backgroundSize: 'contain'}}>
+                <div className="container">
+                    <h2>Hotels</h2>
+                </div>
+            </div>
+      
 
 
             <div className="container mt-5 pt-5">
