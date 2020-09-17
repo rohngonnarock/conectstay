@@ -2,25 +2,24 @@ import React, { useState } from 'react';
 
 
 const Contact = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [msg, setMsg] = useState('');
-    const [loader, setLoader] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
+  const [loader, setLoader] = useState(false);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
-    const handleSubmit = e => {
-        e.preventDefault();
-
-        if(name && email && msg){
-            setLoader(true);
-            setTimeout(() => {
-                setLoader(false);
-                setName('');
-                setEmail('');
-                setMsg('');
-            }, 1500)
-        }
+    if (name && email && msg) {
+      setLoader(true);
+      setTimeout(() => {
+        setLoader(false);
+        setName("");
+        setEmail("");
+        setMsg("");
+      }, 1500);
     }
+  };
 
 
     return(
@@ -63,49 +62,69 @@ const Contact = () => {
                                 <div className="contact_item">
                                     <i className="fa fa-map-marker" />
 
-                                    <p>B-49, Unchey Park Mandawali Fajalpur, Delhi 110092</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-5">
-                            <form onSubmit={handleSubmit}>
-                                <div className="form-group">
-                                    <label>Name</label>
-                                    <input
-                                        type="text"
-                                        className="form-control"
-                                        onChange={e => setName(e.target.value)}
-                                        value={name} />
-                                </div>
-                                <div className="form-group">
-                                    <label>Email</label>
-                                    <input
-                                        type="email"
-                                        className="form-control"
-                                        onChange={e => setEmail(e.target.value)}
-                                        required
-                                        value={email} />
-                                </div>
-                                <div className="form-group">
-                                    <label>Message</label>
-                                    <textarea
-                                        className="form-control"
-                                        onChange={e => setMsg(e.target.value)}
-                                        value={msg} />
-                                </div>
+                <div className="contact_item">
+                  <i className="fa fa-map-marker" />
 
-                                <div className="text-center">
-                                    <button disabled={loader} type="submit" className="btn btn-primary pl-5 pr-5 mt-4">Submit</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
+                  <p>B-49, Unchey Park Mandawali Fajalpur, Delhi 110092</p>
                 </div>
+              </div>
             </div>
+            <div className="col-md-5">
+              <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+                <input type="text" name="name" />
+                <input type="email" name="email" />
+                <textarea name="message"></textarea>
+              </form>
+              <form>
+                <input type="hidden" name="form-name" value="contact" />
+                <div className="form-group">
+                  <label>Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    className="form-control"
+                    onChange={(e) => setName(e.target.value)}
+                    value={name}
+                  />
+                </div>
+                <div className="form-group">
+                  <label>Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    className="form-control"
+                    onChange={(e) => setEmail(e.target.value)}
+                    required
+                    value={email}
+                  />
+                </div>
+                <div className="form-group">
+                  <label>Message</label>
+                  <textarea
+                    name="message"
+                    className="form-control"
+                    onChange={(e) => setMsg(e.target.value)}
+                    value={msg}
+                  />
+                </div>
 
-
+                <div className="text-center">
+                  <button
+                    disabled={loader}
+                    type="submit"
+                    className="btn btn-primary pl-5 pr-5 mt-4"
+                  >
+                    Submit
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-    )
-}
+      </div>
+    </div>
+    </div>
+  );
+};
 
 export default Contact;
