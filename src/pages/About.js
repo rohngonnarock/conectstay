@@ -10,6 +10,7 @@ const About = () => {
                     title="About Us"/>
 
 
+
             <div className="container mt-5 pt-5 mb-5 pb-5">
                 <h2 className="text-center mb-4">Welcome to Conect Stay</h2>
 
