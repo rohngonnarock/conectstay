@@ -13,7 +13,6 @@ const Header = () => {
             <div className="d-flex justify-content-between top_header">
                 <div>
                     <a href="#"><i className="fa fa-mobile" /> +91 9540 767 579</a>
-                    <a href="#"><i className="fa fa-phone" />  +91 1244 013 200</a>
                 </div>
                 <div>
                     <a href="mailto: reservation@conectstay.com"><i className="fa fa-envelope" /> reservation@conectstay.com</a>

@@ -640,4 +640,44 @@ footer a:hover {
   .contact_card form {
     border-radius: 0 0px 12px 12px;
   }
+
+  .main_banner .slick-arrow {
+    display: none !important;
+  }
+}
+
+
+@media(max-width: 576px){
+  .top_header {
+    display: block !important;
+  }
+
+  .top_header {
+    padding: 0 15px;
+  }
+
+  .top_header a {
+    margin: 0;
+  }
+
+  .menu_icon {
+    right: 15px;
+    top: 80px;
+  }
+
+  .main_header {
+    padding: 15px;
+  }
+
+  .main_banner_text h2 {
+    font-size: 30px;
+  }
+
+  .bg_title {
+    font-size: 22px;
+}
+
+.cm_banner h2 {
+  font-size: 40px;
+}
 }

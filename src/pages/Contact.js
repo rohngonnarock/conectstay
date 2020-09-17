@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Banner from '../components/Banner';
 
 
 const Contact = () => {
@@ -26,9 +25,17 @@ const Contact = () => {
 
     return(
         <div classNam="page_wrapper">
-                <Banner
-                    img={require('../assets/img/hotel-10.jpg')}
-                    title="Contact Us" />
+            <div className="cm_banner" style={{
+                backgroundImage: `url(${require('../assets/img/contact-us-bg.jpg')})`,
+                backgroundSize: 'contain',
+                backgroundRepeat: 'no-repeat',
+                backgroundColor: '#D4C4B7'
+                }}>
+                <div className="container">
+                    <h2>Contact Us</h2>
+                </div>
+            </div>
+            
 
 
             <div className="container mt-5 pt-5 mb-5 pb-5">
@@ -36,15 +43,13 @@ const Contact = () => {
                     <div className="row no-gutters">
                         <div className="col-md-7">
                             <div className="p-4">
-                                <h3>Get In Touch</h3>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                <h3>Get In Touch With Us</h3>
 
-
+                                <br />
                                 <div className="contact_item">
                                     <i className="fa fa-phone" />
 
                                     <p><a href="#">+91 9540 767 579</a></p>
-                                    <p><a href="#">+91 1244 013 200</a></p>
                                 </div>
 
 

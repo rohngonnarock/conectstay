@@ -21,8 +21,8 @@ const Footer = () => {
 
                 <div className=" text-center pptc">
                     <p>
-                        <Link to="/privacy-policy">Privacy Ppolicy</Link>
-                        <Link to="/terms-conditions">Terms & Conditions</Link>
+                        <Link to="/">Privacy Ppolicy</Link>
+                        <Link to="/">Terms & Conditions</Link>
                     </p>
                 </div>
             </div>

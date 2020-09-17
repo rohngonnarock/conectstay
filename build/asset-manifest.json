@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.823d01cd.chunk.css",
-    "main.js": "/static/js/main.dc18245d.chunk.js",
-    "main.js.map": "/static/js/main.dc18245d.chunk.js.map",
+    "main.css": "/static/css/main.064c93cb.chunk.css",
+    "main.js": "/static/js/main.217d55aa.chunk.js",
+    "main.js.map": "/static/js/main.217d55aa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dda19e68.js",
     "runtime-main.js.map": "/static/js/runtime-main.dda19e68.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3c9835dd.chunk.js": "/static/js/2.3c9835dd.chunk.js",
-    "static/js/2.3c9835dd.chunk.js.map": "/static/js/2.3c9835dd.chunk.js.map",
+    "static/js/2.27e885ec.chunk.js": "/static/js/2.27e885ec.chunk.js",
+    "static/js/2.27e885ec.chunk.js.map": "/static/js/2.27e885ec.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8806c88e2353ca64c4a4bf600eabbae3.js": "/precache-manifest.8806c88e2353ca64c4a4bf600eabbae3.js",
+    "precache-manifest.cf56b43f3864900088a8991000d4cc40.js": "/precache-manifest.cf56b43f3864900088a8991000d4cc40.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.823d01cd.chunk.css.map": "/static/css/main.823d01cd.chunk.css.map",
-    "static/js/2.3c9835dd.chunk.js.LICENSE.txt": "/static/js/2.3c9835dd.chunk.js.LICENSE.txt",
+    "static/css/main.064c93cb.chunk.css.map": "/static/css/main.064c93cb.chunk.css.map",
+    "static/js/2.27e885ec.chunk.js.LICENSE.txt": "/static/js/2.27e885ec.chunk.js.LICENSE.txt",
     "static/media/Fern-Hotel.png": "/static/media/Fern-Hotel.e30f2d12.png",
     "static/media/Sarovar-Hotel.jpg": "/static/media/Sarovar-Hotel.cd3fe59c.jpg",
     "static/media/Treebo-hotels.jpg": "/static/media/Treebo-hotels.8e3310ec.jpg",
@@ -24,6 +24,7 @@
     "static/media/chennai.jpg": "/static/media/chennai.0923ad05.jpg",
     "static/media/cities.png": "/static/media/cities.9e71d9d4.png",
     "static/media/conference-hall.jpg": "/static/media/conference-hall.64a755f6.jpg",
+    "static/media/contact-us-bg.jpg": "/static/media/contact-us-bg.ddcc918b.jpg",
     "static/media/contreen.jpg": "/static/media/contreen.1d78579c.jpg",
     "static/media/corporate-catering.jpg": "/static/media/corporate-catering.9a402f69.jpg",
     "static/media/delhi.jpg": "/static/media/delhi.c92f56d7.jpg",
@@ -66,8 +67,8 @@
   "entrypoints": [
     "static/js/runtime-main.dda19e68.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.3c9835dd.chunk.js",
-    "static/css/main.823d01cd.chunk.css",
-    "static/js/main.dc18245d.chunk.js"
+    "static/js/2.27e885ec.chunk.js",
+    "static/css/main.064c93cb.chunk.css",
+    "static/js/main.217d55aa.chunk.js"
   ]
 }
