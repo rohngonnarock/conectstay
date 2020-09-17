@@ -70,7 +70,7 @@ const Contact = () => {
                 <input type="email" name="email" />
                 <textarea name="message"></textarea>
               </form>
-              <form name="contact" method="post">
+              <form method="post">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                   <label>Name</label>
