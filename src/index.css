@@ -57,6 +57,7 @@ header {
 .main_menu ul li {
   display: inline-block;
   margin-left: 20px;
+  position: relative;
 }
 
 .main_menu ul li a {
@@ -81,6 +82,39 @@ header {
 header a:hover {
   text-decoration: none;
 }
+
+
+.main_menu .btn-success:not(:disabled):not(.disabled).active,
+.main_menu .btn-success:not(:disabled):not(.disabled):active,
+.main_menu .show>.btn-success.dropdown-toggle,
+.main_menu .dropdown-toggle:focus,
+.main_menu .dropdown-toggle {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
+.main_menu ul li .dropdown a {
+  color: #000;
+}
+
+.main_menu ul li .dropdown-menu > a {
+  padding: 0;
+}
+
+.main_menu ul li .dropdown-menu a:after {
+  display: none;
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  min-width: 250px;
+  transform: none !important;
+  right: 0 !important;
+  top: 35px !important;
+  left: auto !important;
+}
+
 
 
 

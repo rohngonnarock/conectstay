@@ -15,6 +15,8 @@ const Footer = () => {
                         <li><NavLink to="/mice">Mice</NavLink></li>
                         <li><NavLink to="/food-service">Corporate Catering</NavLink></li>
                         <li><NavLink to="/cab-service">Cab Service</NavLink></li>
+                        <li><NavLink to="/cab-service">Flight service</NavLink></li>
+                        <li><NavLink to="/cab-service">Train Service</NavLink></li>
                         <li><NavLink to="/contact">Contact Us</NavLink></li>
                     </ul>
                 </div>
@@ -27,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="d-flex justify-content-between copyright">
+            <div className="d-flex justify-content-center copyright">
                 <p>Copyright © conectstay.com All right reserved.</p>
                 {/* <div className="footer_social">
                     <a href="#"><i className="fa fa-facebook" /></a>

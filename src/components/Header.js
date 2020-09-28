@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { Dropdown } from 'react-bootstrap';
 
 
 const Header = () => {
@@ -16,10 +17,6 @@ const Header = () => {
                 </div>
                 <div>
                     <a href="mailto: reservation@conectstay.com"><i className="fa fa-envelope" /> reservation@conectstay.com</a>
-                    {/* <a href="#"><i className="fa fa-facebook" /></a>
-                    <a href="#"><i className="fa fa-twitter" /></a>
-                    <a href="#"><i className="fa fa-linkedin" /></a>
-                    <a href="#"><i className="fa fa-instagram" /></a> */}
                 </div>
             </div>
 
@@ -35,9 +32,21 @@ const Header = () => {
                         <li><NavLink onClick={handleMenuClose} exact to="/about">About Us</NavLink></li>
                         <li><NavLink onClick={handleMenuClose} exact to="/locations">Locations</NavLink></li>
                         <li><NavLink onClick={handleMenuClose} exact to="/hotels">Hotels</NavLink></li>
-                        <li><NavLink onClick={handleMenuClose} exact to="/mice">Mice</NavLink></li>
-                        <li><NavLink onClick={handleMenuClose} exact to="/food-service">Corporate Catering</NavLink></li>
-                        <li><NavLink onClick={handleMenuClose} exact to="/cab-service">Cab service</NavLink></li>
+                        <li>
+                            <Dropdown>
+                                <Dropdown.Toggle variant="success">
+                                Services
+                                </Dropdown.Toggle>
+
+                                <Dropdown.Menu>
+                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/mice">Mice</NavLink></Dropdown.Item>
+                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/food-service">Corporate Catering</NavLink></Dropdown.Item>
+                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/cab-service">Cab service</NavLink></Dropdown.Item>
+                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/cab-service">Flight service</NavLink></Dropdown.Item>
+                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/cab-service">Train service</NavLink></Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                        </li>
                         <li><NavLink onClick={handleMenuClose} exact to="/contact">Contact Us</NavLink></li>
                     </ul>
                 </div>

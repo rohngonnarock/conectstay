@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.064c93cb.chunk.css",
-    "main.js": "/static/js/main.217d55aa.chunk.js",
-    "main.js.map": "/static/js/main.217d55aa.chunk.js.map",
+    "main.css": "/static/css/main.d8faa620.chunk.css",
+    "main.js": "/static/js/main.860e77b6.chunk.js",
+    "main.js.map": "/static/js/main.860e77b6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dda19e68.js",
     "runtime-main.js.map": "/static/js/runtime-main.dda19e68.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.27e885ec.chunk.js": "/static/js/2.27e885ec.chunk.js",
-    "static/js/2.27e885ec.chunk.js.map": "/static/js/2.27e885ec.chunk.js.map",
+    "static/js/2.ea3c75e3.chunk.js": "/static/js/2.ea3c75e3.chunk.js",
+    "static/js/2.ea3c75e3.chunk.js.map": "/static/js/2.ea3c75e3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.cf56b43f3864900088a8991000d4cc40.js": "/precache-manifest.cf56b43f3864900088a8991000d4cc40.js",
+    "precache-manifest.febc5b804e575c923d06c0527fce8cee.js": "/precache-manifest.febc5b804e575c923d06c0527fce8cee.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.064c93cb.chunk.css.map": "/static/css/main.064c93cb.chunk.css.map",
-    "static/js/2.27e885ec.chunk.js.LICENSE.txt": "/static/js/2.27e885ec.chunk.js.LICENSE.txt",
+    "static/css/main.d8faa620.chunk.css.map": "/static/css/main.d8faa620.chunk.css.map",
+    "static/js/2.ea3c75e3.chunk.js.LICENSE.txt": "/static/js/2.ea3c75e3.chunk.js.LICENSE.txt",
     "static/media/Fern-Hotel.png": "/static/media/Fern-Hotel.e30f2d12.png",
     "static/media/Sarovar-Hotel.jpg": "/static/media/Sarovar-Hotel.cd3fe59c.jpg",
     "static/media/Treebo-hotels.jpg": "/static/media/Treebo-hotels.8e3310ec.jpg",
@@ -67,8 +67,8 @@
   "entrypoints": [
     "static/js/runtime-main.dda19e68.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.27e885ec.chunk.js",
-    "static/css/main.064c93cb.chunk.css",
-    "static/js/main.217d55aa.chunk.js"
+    "static/js/2.ea3c75e3.chunk.js",
+    "static/css/main.d8faa620.chunk.css",
+    "static/js/main.860e77b6.chunk.js"
   ]
 }
