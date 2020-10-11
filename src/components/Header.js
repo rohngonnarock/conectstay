@@ -13,7 +13,7 @@ const Header = () => {
             <i className="fa fa-bars menu_icon" onClick={handleMenuOpen} />
             <div className="d-flex justify-content-between top_header">
                 <div>
-                    <a href="#"><i className="fa fa-mobile" /> +91 9540 767 579</a>
+                    <a href="#"><i className="fa fa-mobile" /> +91 9816 892 387</a>
                 </div>
                 <div>
                     <a href="mailto: reservation@conectstay.com"><i className="fa fa-envelope" /> reservation@conectstay.com</a>
@@ -23,7 +23,7 @@ const Header = () => {
 
             <div className="main_header">
                 <div className="main_logo">
-                    <Link to="/">Conectstay.<span>com</span></Link>
+                    <Link to="/">CoNectstay.<span>com</span></Link>
                 </div>
                 <div className="main_menu">
                     <i className="fa fa-times cm_close_menu" onClick={handleMenuClose} />
@@ -42,8 +42,8 @@ const Header = () => {
                                     <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/mice">Mice</NavLink></Dropdown.Item>
                                     <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/food-service">Corporate Catering</NavLink></Dropdown.Item>
                                     <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/cab-service">Cab service</NavLink></Dropdown.Item>
-                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/cab-service">Flight service</NavLink></Dropdown.Item>
-                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/cab-service">Train service</NavLink></Dropdown.Item>
+                                    <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/flight-service">Flight service</NavLink></Dropdown.Item>
+                                    {/* <Dropdown.Item href="javascript:void(0);"><NavLink onClick={handleMenuClose} exact to="/train-service">Train service</NavLink></Dropdown.Item> */}
                                 </Dropdown.Menu>
                             </Dropdown>
                         </li>

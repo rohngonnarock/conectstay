@@ -15,22 +15,22 @@ const Footer = () => {
                         <li><NavLink to="/mice">Mice</NavLink></li>
                         <li><NavLink to="/food-service">Corporate Catering</NavLink></li>
                         <li><NavLink to="/cab-service">Cab Service</NavLink></li>
-                        <li><NavLink to="/cab-service">Flight service</NavLink></li>
-                        <li><NavLink to="/cab-service">Train Service</NavLink></li>
+                        <li><NavLink to="/flight-service">Flight service</NavLink></li>
+                        {/* <li><NavLink to="/cab-service">Train Service</NavLink></li> */}
                         <li><NavLink to="/contact">Contact Us</NavLink></li>
                     </ul>
                 </div>
 
-                <div className=" text-center pptc">
+                {/* <div className=" text-center pptc">
                     <p>
                         <Link to="/">Privacy Ppolicy</Link>
                         <Link to="/">Terms & Conditions</Link>
                     </p>
-                </div>
+                </div> */}
             </div>
 
             <div className="d-flex justify-content-center copyright">
-                <p>Copyright © conectstay.com All right reserved.</p>
+                <p>Copyright © coNectstay.com All right reserved.</p>
                 {/* <div className="footer_social">
                     <a href="#"><i className="fa fa-facebook" /></a>
                     <a href="#"><i className="fa fa-twitter" /></a>

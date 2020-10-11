@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.d8faa620.chunk.css",
-    "main.js": "/static/js/main.860e77b6.chunk.js",
-    "main.js.map": "/static/js/main.860e77b6.chunk.js.map",
+    "main.js": "/static/js/main.ea36b1c2.chunk.js",
+    "main.js.map": "/static/js/main.ea36b1c2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dda19e68.js",
     "runtime-main.js.map": "/static/js/runtime-main.dda19e68.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ea3c75e3.chunk.js": "/static/js/2.ea3c75e3.chunk.js",
-    "static/js/2.ea3c75e3.chunk.js.map": "/static/js/2.ea3c75e3.chunk.js.map",
+    "static/js/2.9c971f1c.chunk.js": "/static/js/2.9c971f1c.chunk.js",
+    "static/js/2.9c971f1c.chunk.js.map": "/static/js/2.9c971f1c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.febc5b804e575c923d06c0527fce8cee.js": "/precache-manifest.febc5b804e575c923d06c0527fce8cee.js",
+    "precache-manifest.7bd7993fec2a6b6ede5a39e11f8eeeb8.js": "/precache-manifest.7bd7993fec2a6b6ede5a39e11f8eeeb8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.d8faa620.chunk.css.map": "/static/css/main.d8faa620.chunk.css.map",
-    "static/js/2.ea3c75e3.chunk.js.LICENSE.txt": "/static/js/2.ea3c75e3.chunk.js.LICENSE.txt",
+    "static/js/2.9c971f1c.chunk.js.LICENSE.txt": "/static/js/2.9c971f1c.chunk.js.LICENSE.txt",
     "static/media/Fern-Hotel.png": "/static/media/Fern-Hotel.e30f2d12.png",
     "static/media/Sarovar-Hotel.jpg": "/static/media/Sarovar-Hotel.cd3fe59c.jpg",
     "static/media/Treebo-hotels.jpg": "/static/media/Treebo-hotels.8e3310ec.jpg",
@@ -28,6 +28,7 @@
     "static/media/contreen.jpg": "/static/media/contreen.1d78579c.jpg",
     "static/media/corporate-catering.jpg": "/static/media/corporate-catering.9a402f69.jpg",
     "static/media/delhi.jpg": "/static/media/delhi.c92f56d7.jpg",
+    "static/media/flight.jpg": "/static/media/flight.367bd9bf.jpg",
     "static/media/ginger.jpg": "/static/media/ginger.c8752aaf.jpg",
     "static/media/goa.jpg": "/static/media/goa.ff986dcd.jpg",
     "static/media/gujarat.jpg": "/static/media/gujarat.f09e333c.jpg",
@@ -67,8 +68,8 @@
   "entrypoints": [
     "static/js/runtime-main.dda19e68.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.ea3c75e3.chunk.js",
+    "static/js/2.9c971f1c.chunk.js",
     "static/css/main.d8faa620.chunk.css",
-    "static/js/main.860e77b6.chunk.js"
+    "static/js/main.ea36b1c2.chunk.js"
   ]
 }

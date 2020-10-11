@@ -49,7 +49,7 @@ const Contact = () => {
                                 <div className="contact_item">
                                     <i className="fa fa-phone" />
 
-                                    <p><a href="#">+91 9540 767 579</a></p>
+                                    <p><a href="#">+91 9816 892 387</a></p>
                                 </div>
 
 

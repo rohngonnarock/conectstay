@@ -9,6 +9,8 @@ import Locations from './pages/Locations';
 import Hotels from './pages/Hotels';
 import FoodService from './pages/FoodService';
 import CabService from './pages/CabService';
+import FlightService from './pages/FlightService';
+// import TrainService from './pages/TrainService';
 import Contact from './pages/Contact';
 import Mice from './pages/Mice';
 import ScrollToTop from './components/ScrollToTop';
@@ -28,6 +30,8 @@ const App = props => {
         <Route exact path="/mice" component={ Mice } />
         <Route exact path="/food-service" component={ FoodService } />
         <Route exact path="/cab-service" component={ CabService } />
+        <Route exact path="/flight-service" component={ FlightService } />
+        {/* <Route exact path="/train-service" component={ TrainService } /> */}
         <Route exact path="/contact" component={ Contact } />
       </Switch>
       <Footer />
