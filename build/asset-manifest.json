@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8faa620.chunk.css",
-    "main.js": "/static/js/main.ea36b1c2.chunk.js",
-    "main.js.map": "/static/js/main.ea36b1c2.chunk.js.map",
+    "main.css": "/static/css/main.f774eda4.chunk.css",
+    "main.js": "/static/js/main.f9122292.chunk.js",
+    "main.js.map": "/static/js/main.f9122292.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.dda19e68.js",
     "runtime-main.js.map": "/static/js/runtime-main.dda19e68.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.9c971f1c.chunk.js": "/static/js/2.9c971f1c.chunk.js",
-    "static/js/2.9c971f1c.chunk.js.map": "/static/js/2.9c971f1c.chunk.js.map",
+    "static/js/2.3eb70c48.chunk.js": "/static/js/2.3eb70c48.chunk.js",
+    "static/js/2.3eb70c48.chunk.js.map": "/static/js/2.3eb70c48.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7bd7993fec2a6b6ede5a39e11f8eeeb8.js": "/precache-manifest.7bd7993fec2a6b6ede5a39e11f8eeeb8.js",
+    "precache-manifest.61321b02d740b00ddcf74720287a1be3.js": "/precache-manifest.61321b02d740b00ddcf74720287a1be3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.d8faa620.chunk.css.map": "/static/css/main.d8faa620.chunk.css.map",
-    "static/js/2.9c971f1c.chunk.js.LICENSE.txt": "/static/js/2.9c971f1c.chunk.js.LICENSE.txt",
+    "static/css/main.f774eda4.chunk.css.map": "/static/css/main.f774eda4.chunk.css.map",
+    "static/js/2.3eb70c48.chunk.js.LICENSE.txt": "/static/js/2.3eb70c48.chunk.js.LICENSE.txt",
     "static/media/Fern-Hotel.png": "/static/media/Fern-Hotel.e30f2d12.png",
     "static/media/Sarovar-Hotel.jpg": "/static/media/Sarovar-Hotel.cd3fe59c.jpg",
     "static/media/Treebo-hotels.jpg": "/static/media/Treebo-hotels.8e3310ec.jpg",
     "static/media/accor.jpg": "/static/media/accor.16e1bab9.jpg",
     "static/media/agra.jpg": "/static/media/agra.bbe00d14.jpg",
+    "static/media/airplane.png": "/static/media/airplane.a2ca6d6d.png",
     "static/media/bangalore.jpg": "/static/media/bangalore.18fef95f.jpg",
     "static/media/bhubaneswar.jpg": "/static/media/bhubaneswar.f81b3f4e.jpg",
+    "static/media/cab.png": "/static/media/cab.0b1feaae.png",
     "static/media/chennai.jpg": "/static/media/chennai.0923ad05.jpg",
     "static/media/cities.png": "/static/media/cities.9e71d9d4.png",
     "static/media/conference-hall.jpg": "/static/media/conference-hall.64a755f6.jpg",
@@ -68,8 +70,8 @@
   "entrypoints": [
     "static/js/runtime-main.dda19e68.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.9c971f1c.chunk.js",
-    "static/css/main.d8faa620.chunk.css",
-    "static/js/main.ea36b1c2.chunk.js"
+    "static/js/2.3eb70c48.chunk.js",
+    "static/css/main.f774eda4.chunk.css",
+    "static/js/main.f9122292.chunk.js"
   ]
 }

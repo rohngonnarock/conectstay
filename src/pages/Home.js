@@ -9,14 +9,14 @@ const Home = () => {
                 <MainCarousel sliders={sliders} />
 
                 <div className="main_banner_text">
-                    <h2>Welcome to Conectstay.<span>com</span></h2>
+                    <h2>Welcome to CoNectstay.<span>com</span></h2>
                 </div>
             </div>
 
 
 
             <div className="container mt-5 pt-5 mb-5 pb-5">
-                <h2 className="text-center mb-5 bg_title">Sense the warmth of Hotels in Pan-India</h2>
+                <h2 className="text-center mb-5 bg_title">Sense the warmth of Travel management in Pan-India</h2>
                 <div className="row">
 
 
@@ -96,6 +96,25 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row">
+                <div className="col-md-1" />
+                    <div className="col-md-5">
+                        <div className="cm_counts">
+                            <img src={require('../assets/img/airplane.png')} className="img-width"/>
+                            <h3>20+</h3>
+                            <h5>AIRLINES</h5>
+                        
+                        </div>
+                    </div>
+                    
+                    <div className="col-md-5">
+                        <div className="cm_counts">
+                        <img src={require('../assets/img/cab.png')} className="img-width"/>
+                            <h3>100+</h3>
+                            <h5>CAB VENDORS</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -110,7 +129,7 @@ const Home = () => {
 
                 <div classNam="row">
                     <div className="col">
-                    <p>Conect Stays provides a great combinations of price, value and quality accommodation to make your sojourn truly memorable. Located in prime locations of the cities, the hotels are appropriate for corporate house clients, business and leisure travellers. The dedicated staff and hospitality will surely make your stay complacent one.</p>
+                    <p>Conect Stays Pvt Ltd provides the Corporate Travel management solutions in which we manage a company’s strategic approach to travel ,cost benefits for client company, maximum satisfaction to travellers while fulfilling their requirement with prompt revert and providing them preferred solutions at within corporate travel policies, Round the clock support. Additionally we assist in obtaining maximum benefits from using Hotels and vendors. We ensure excellent management for day to day operation of the corporate travel program, traveller’s convenience, prompt information on various updates/changes information. </p>
                     </div>
                 </div>
             </div>
