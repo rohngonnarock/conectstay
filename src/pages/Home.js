@@ -16,7 +16,7 @@ const Home = () => {
 
 
             <div className="container mt-5 pt-5 mb-5 pb-5">
-                <h2 className="text-center mb-5 bg_title">Sense the warmth of Travel management in Pan-India</h2>
+                <h2 className="text-center mb-5 bg_title">Sense the warmth of Travel Management in Pan-India</h2>
                 <div className="row">
 
 
